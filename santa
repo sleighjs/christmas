@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var Commander = require('./src/commands/kernel');
+var command = new Commander();
+
+program
+    .version('0.0.1')
+    .command('auth')
+    .description('Scaffold basic login and registration views and routes')
+    .action(function() {
+        command.success('Auth is OK');
+    });
+
+program
+    .command('make:model [name]')
+    .description('Create a new model file')
+    .action(function(name, options) {
+        command.createModel(name);
+    });
+
+program
+    .command('make:controller [name]')
+    .description('Create a new controller file')
+    .action(function(name) {
+        command.createController(name);
+    });
+
+program
+    .command('test')
+    .description('Create a new migration file')
+    .action(function(name) {
+        command.hi('APOSTOLOS ');
+    });
+
+program.parse(process.argv);
