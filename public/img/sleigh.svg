@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 409.6 144.42">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-755 -467.99)">
+      <rect x="755" y="467" width="410" height="147" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>sleigh1</title>
+  <g>
+    <path d="M1104.87,475.88H883a25.6,25.6,0,1,0,0,51.2h221.87a25.6,25.6,0,0,0,0-51.2Zm0,34.13H883a8.54,8.54,0,1,1,0-17.07h221.87a8.54,8.54,0,0,1,0,17.07Zm0,0" transform="translate(-755 -467.99)"/>
+    <path d="M1070.73,510a8.53,8.53,0,0,0-8.53,8.53v85.34a8.54,8.54,0,0,0,17.07,0V518.54a8.53,8.53,0,0,0-8.54-8.53Zm0,0" transform="translate(-755 -467.99)"/>
+    <g clip-path="url(#clip-path)">
+      <path d="M917.13,510a8.53,8.53,0,0,0-8.53,8.53v85.34a8.54,8.54,0,0,0,17.07,0V518.54a8.54,8.54,0,0,0-8.54-8.53Zm0,0" transform="translate(-755 -467.99)"/>
+      <path d="M1156.07,595.34H831.8a59.73,59.73,0,0,1-29.95-111.41,8.54,8.54,0,0,0-8.57-14.78A76.81,76.81,0,0,0,831.8,612.41h324.27a8.54,8.54,0,0,0,0-17.07Zm0,0" transform="translate(-755 -467.99)"/>
+    </g>
+  </g>
+</svg>

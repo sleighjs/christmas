@@ -4,12 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "nodemon --watch controllers --watch models --watch router --watch views --watch src"
+    "serve": "nodemon --watch controllers --watch models --watch router --watch views --watch src",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sleighjs/christmas.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sleigh": "0.0.2"
+    "eslint": "^5.2.0",
+    "sleigh": "0.0.392"
   }
 }
