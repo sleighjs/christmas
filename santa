@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var program = require('commander');
-var Commander = require('./src/commands/kernel');
+var Commander = require('sleigh/commands/kernel');
 var command = new Commander();
 
 program

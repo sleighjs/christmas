@@ -1,5 +1,3 @@
-'use strict';
-
 var route = require('sleigh/lib/router');
 
 var User = require('../models/user');

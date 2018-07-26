@@ -25,7 +25,7 @@ describe('Server', function() {
 
     describe('#config', function() {
         it('should have set config file properly', function() {
-            assert.ok(config.get('server.port') === 8000);
+            assert.ok(config.get('server.port') === 8888);
         });
     });
 });
